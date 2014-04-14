@@ -162,7 +162,7 @@ class CloudFlareAdapter {
 
 
 	/**
-	 * Get de record ID by name and type
+	 * Get a record ID by name and type
 	 * Example: getRecId('foo.com', 'MX');
 	 */
 	private function getRec($name, $type, $recs) {
